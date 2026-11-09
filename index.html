@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Nnaemeka Umerah — Hybrid Risk & Tech-Audit Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0b0c10;
+            --card-bg: #1f2833;
+            --accent-green: #00ffaa;
+            --text-primary: #ffffff;
+            --text-secondary: #c5c6c7;
+            --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: var(--bg-color); color: var(--text-primary); font-family: var(--font-stack); line-height: 1.6; padding: 0 24px; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 80px 0; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 24px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .logo { font-size: 20px; font-weight: 700; letter-spacing: -0.5px; }
+        .badge-available { background: rgba(0, 255, 170, 0.1); color: var(--accent-green); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; }
+        .badge-available::before { content: ""; width: 8px; height: 8px; background-color: var(--accent-green); border-radius: 50%; }
+        .hero { margin: 100px 0 80px 0; max-width: 850px; }
+        .hero h1 { font-size: 54px; line-height: 1.15; font-weight: 800; letter-spacing: -2px; margin-bottom: 28px; }
+        .hero p { font-size: 20px; color: var(--text-secondary); font-weight: 400; max-width: 700px; }
+        .metrics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 100px; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+        .metric-card h3 { font-size: 48px; font-weight: 800; color: var(--accent-green); letter-spacing: -1px; margin-bottom: 4px; }
+        .metric-card p { font-size: 14px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+        .section-title { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--accent-green); margin-bottom: 32px; font-weight: 700; }
+        .work-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; margin-bottom: 100px; }
+        .project-card { background-color: var(--card-bg); border-radius: 16px; padding: 40px; border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease; }
+        .project-card:hover { transform: translateY(-6px); border-color: var(--accent-green); }
+        .project-tag { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-green); font-weight: 700; margin-bottom: 16px; display: block; }
+        .project-card h2 { font-size: 24px; font-weight: 700; margin-bottom: 12px; letter-spacing: -0.5px; }
+        .project-card p { color: var(--text-secondary); font-size: 15px; margin-bottom: 24px; }
+        .project-tech { display: flex; gap: 8px; flex-wrap: wrap; }
+        .tech-pill { background-color: rgba(255, 255, 255, 0.05); padding: 4px 12px; border-radius: 6px; font-size: 12px; color: var(--text-primary); font-weight: 500; }
+        .skills-section { background-color: #12141c; border-radius: 24px; padding: 60px; margin-bottom: 100px; border: 1px solid rgba(255, 255, 255, 0.03); }
+        .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; }
+        .skill-group h4 { font-size: 16px; color: var(--text-primary); margin-bottom: 16px; font-weight: 700; border-left: 3px solid var(--accent-green); padding-left: 12px; }
+        .skill-list { color: var(--text-secondary); font-size: 15px; line-height: 1.8; }
+        footer { text-align: center; padding-top: 60px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+        footer h2 { font-size: 36px; font-weight: 800; margin-bottom: 24px; letter-spacing: -1px; }
+        .btn-contact { background-color: var(--accent-green); color: #000000; padding: 14px 32px; border-radius: 30px; text-decoration: none; font-weight: 700; display: inline-block; }
+        .footer-links { margin-top: 40px; display: flex; justify-content: center; gap: 24px; font-size: 14px; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; }
+        .footer-links a:hover { color: var(--accent-green); }
+        .copyright { margin-top: 40px; font-size: 12px; color: rgba(255, 255, 255, 0.3); }
+        @media (max-width: 768px) { .hero h1 { font-size: 38px; } .metrics-grid, .work-grid, .skills-grid { grid-template-columns: 1fr; gap: 32px; } .skills-section { padding: 30px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Emmanuel Umerah</div>
+            <div class="badge-available">Available for Global Risk & Audit Positions</div>
+        </header>
+
+        <section class="hero">
+            <h1>I audit artificial intelligence frameworks, secure cloud infrastructure, and protect financial assets.</h1>
+            <p>I am a Hybrid Risk Professional & Information Security Auditor bridging the gap between core banking operational compliance and enterprise cyber-defense.</p>
+        </section>
+
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <h3>6+ Years</h3>
+                <p>Banking Controls & Operations</p>
+            </div>
+            <div class="metric-card">
+                <h3>15+</h3>
+                <p>Technical & Industry Credentials</p>
+            </div>
+            <div class="metric-card">
+                <h3>100%</h3>
+                <p>Audit Compliance Verification</p>
+            </div>
+        </section>
+
+        <div class="section-title">Selected Case Studies</div>
+        <section class="work-grid">
+            <div class="project-card">
+                <span class="project-tag">Core Architecture Project</span>
+                <h2>Project Aegis: Automated Log Parser</h2>
+                <p>Designed and built a predictive compliance pipeline using SQL and Python to extract, parse, and evaluate multi-cloud server logs for automated anomaly and fraud tracking.</p>
+                <div class="project-tech">
+                    <span class="tech-pill">Python</span>
+                    <span class="tech-pill">SQL Server</span>
+                    <span class="tech-pill">Wireshark</span>
+                    <span class="tech-pill">PowerBI</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-tag">Emerging Technology Governance</span>
+                <h2>ISO/IEC 42001 AI Risk Audit Model</h2>
+                <p>Developed an automated compliance auditing framework designed to trace machine learning pipelines, evaluate algorithmic underwriting bias, and guarantee network boundaries protection.</p>
+                <div class="project-tech">
+                    <span class="tech-pill">ISO/IEC 42001</span>
+                    <span class="tech-pill">AI Governance</span>
+                    <span class="tech-pill">Data Audit</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-tag">Cloud Risk Assurance</span>
+                <h2>Multi-Cloud Infrastructure Protection</h2>
+                <p>Modeled an enterprise-wide cloud risk register map verifying egress data filtering and perimeter access control structures across multi-platform networks.</p>
+                <div class="project-tech">
+                    <span class="tech-pill">Aviatrix ACE</span>
+                    <span class="tech-pill">Google Cybersecurity</span>
+                    <span class="tech-pill">Cloud Security</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="project-tag">Banking Internal Control</span>
+                <h2>UBA Identity & CDD Fraud Mitigation</h2>
+                <p>Spearheaded branch-level enforcement of rigid KYC, AML, and account lifespan compliance tracking, successfully eliminating processing vulnerabilities.</p>
+                <div class="project-tech">
+                    <span class="tech-pill">UBA Credit Policy</span>
+                    <span class="tech-pill">AML/CFT Frameworks</span>
+                    <span class="tech-pill">Risk Management</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-title">Skills & Frameworks Matrix</div>
+        <section class="skills-section">
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4>Governance & IT Audit</h4>
+                    <p class="skill-list">ISO/IEC 42001 Lead Auditing · Internal Auditing Principles · Regulatory Alignment Management · Risk Registries Documentation · Central Bank Policies Enforcement</p>
+                </div>
+                <div class="skill-group">
+                    <h4>Cyber & Cloud Infrastructure</h4>
+                    <p class="skill-list">Google Certified Network Security · Aviatrix Multi-Cloud Network Access · Threat Mitigation & Analysis · SQL Server Administration · Python Scripting Automation</p>
+                </div>
+            </div>
+            <div class="skills-grid" style="margin-top: 32px;">
+                <div class="skill-group">
+                    <h4>Business Intelligence & Finance</h4>
+                    <p class="skill-list">Techpye Data Analytics · Core Corporate Financial Modeling · PowerBI Professional Dashboarding · Simplilearn Business Analysis · Lean Six Sigma Frameworks</p>
+                </div>
+                <div class="skill-group">
+                    <h4>Leadership & Enterprise Execution</h4>
