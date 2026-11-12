@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmanuel Nnaemeka Umerah — Hybrid Risk & Tech-Audit Portfolio</title>
+    <title>Emmanuel Nnaemeka Umerah — Cyber-Finance Specialist & Tech-Audit Portfolio</title>
     <style>
         :root {
             --bg-color: #0b0c10;
@@ -22,19 +22,21 @@
         .badge-available::before { content: ""; width: 8px; height: 8px; background-color: var(--accent-green); border-radius: 50%; }
         .hero { margin: 100px 0 80px 0; max-width: 850px; }
         .hero h1 { font-size: 54px; line-height: 1.15; font-weight: 800; letter-spacing: -2px; margin-bottom: 28px; }
-        .hero p { font-size: 20px; color: var(--text-secondary); font-weight: 400; max-width: 700px; }
+        .hero p { font-size: 20px; color: var(--text-secondary); font-weight: 400; max-width: 750px; }
         .metrics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 100px; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
         .metric-card h3 { font-size: 48px; font-weight: 800; color: var(--accent-green); letter-spacing: -1px; margin-bottom: 4px; }
         .metric-card p { font-size: 14px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
         .section-title { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--accent-green); margin-bottom: 32px; font-weight: 700; }
         .work-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; margin-bottom: 100px; }
-        .project-card { background-color: var(--card-bg); border-radius: 16px; padding: 40px; border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease; text-decoration: none; color: inherit; display: block; }
+        .project-card { background-color: var(--card-bg); border-radius: 16px; padding: 40px; border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease; display: flex; flex-direction: column; justify-content: space-between; }
         .project-card:hover { transform: translateY(-6px); border-color: var(--accent-green); }
         .project-tag { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-green); font-weight: 700; margin-bottom: 16px; display: block; }
         .project-card h2 { font-size: 24px; font-weight: 700; margin-bottom: 12px; letter-spacing: -0.5px; }
         .project-card p { color: var(--text-secondary); font-size: 15px; margin-bottom: 24px; }
         .project-tech { display: flex; gap: 8px; flex-wrap: wrap; }
         .tech-pill { background-color: rgba(255, 255, 255, 0.05); padding: 4px 12px; border-radius: 6px; font-size: 12px; color: var(--text-primary); font-weight: 500; }
+        .btn-live { display: inline-block; background-color: var(--accent-green); color: #000000; padding: 8px 16px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; margin-bottom: 20px; width: fit-content; transition: opacity 0.2s ease; }
+        .btn-live:hover { opacity: 0.85; }
         .skills-section { background-color: #12141c; border-radius: 24px; padding: 60px; margin-bottom: 100px; border: 1px solid rgba(255, 255, 255, 0.03); }
         .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; margin-bottom: 32px; }
         .skill-group h4 { font-size: 16px; color: var(--text-primary); margin-bottom: 16px; font-weight: 700; border-left: 3px solid var(--accent-green); padding-left: 12px; }
@@ -53,12 +55,12 @@
     <div class="container">
         <header>
             <div class="logo">Emmanuel Umerah</div>
-            <div class="badge-available">Available for Global Risk & Audit Positions</div>
+            <div class="badge-available">Cyber-Finance Specialist | Available for Global Roles</div>
         </header>
 
         <section class="hero">
             <h1>I audit artificial intelligence frameworks, secure cloud infrastructure, and protect financial assets.</h1>
-            <p>I am a Hybrid Risk Professional & Information Security Auditor bridging the gap between core banking operational compliance and enterprise cyber-defense.</p>
+            <p>I am a Cyber-Finance Specialist & Information Security Auditor combining 6+ years of banking operations leadership, CIBN banking governance, and a Computer Science background with enterprise cyber-defense.</p>
         </section>
 
         <section class="metrics-grid">
@@ -76,12 +78,29 @@
             </div>
         </section>
 
-        <div class="section-title">Selected Case Studies</div>
+        <div class="section-title">Selected Case Studies & Live Applications</div>
         <section class="work-grid">
             <div class="project-card">
-                <span class="project-tag">Core Architecture Project</span>
-                <h2>Project Aegis: Automated Log Parser</h2>
-                <p>Designed and built a predictive compliance pipeline using SQL and Python to extract, parse, and evaluate multi-cloud server logs for automated anomaly and fraud tracking.</p>
+                <div>
+                    <span class="project-tag">Live AI Security Application</span>
+                    <h2>FINGUARD AI Secure Access</h2>
+                    <p>Built and deployed an AI-driven security access control and financial fraud prevention web application designed to safeguard banking workflows, detect anomalous login behaviors, and enforce zero-trust verification.</p>
+                    <a href="https://streamlit.app" target="_blank" class="btn-live">Launch Live App ↗</a>
+                </div>
+                <div class="project-tech">
+                    <span class="tech-pill">Python</span>
+                    <span class="tech-pill">Streamlit</span>
+                    <span class="tech-pill">AI Security</span>
+                    <span class="tech-pill">Zero-Trust IAM</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div>
+                    <span class="project-tag">Core Architecture Project</span>
+                    <h2>Project Aegis: Automated Log Parser</h2>
+                    <p>Designed and built a predictive compliance pipeline using SQL and Python to extract, parse, and evaluate multi-cloud server logs for automated anomaly and fraud tracking.</p>
+                </div>
                 <div class="project-tech">
                     <span class="tech-pill">Python</span>
                     <span class="tech-pill">SQL Server</span>
@@ -91,9 +110,11 @@
             </div>
 
             <div class="project-card">
-                <span class="project-tag">Emerging Technology Governance</span>
-                <h2>ISO/IEC 42001 AI Risk Audit Model</h2>
-                <p>Developed an automated compliance auditing framework designed to trace machine learning pipelines, evaluate algorithmic underwriting bias, and guarantee network boundaries protection.</p>
+                <div>
+                    <span class="project-tag">Emerging Technology Governance</span>
+                    <h2>ISO/IEC 42001 AI Risk Audit Model</h2>
+                    <p>Developed an automated compliance auditing framework designed to trace machine learning pipelines, evaluate algorithmic underwriting bias, and guarantee network boundaries protection.</p>
+                </div>
                 <div class="project-tech">
                     <span class="tech-pill">ISO/IEC 42001</span>
                     <span class="tech-pill">AI Governance</span>
@@ -102,24 +123,15 @@
             </div>
 
             <div class="project-card">
-                <span class="project-tag">Cloud Risk Assurance</span>
-                <h2>Multi-Cloud Infrastructure Protection</h2>
-                <p>Modeled an enterprise-wide cloud risk register map verifying egress data filtering and perimeter access control structures across multi-platform networks.</p>
-                <div class="project-tech">
-                    <span class="tech-pill">Aviatrix ACE</span>
-                    <span class="tech-pill">Google Cybersecurity</span>
-                    <span class="tech-pill">Cloud Security</span>
+                <div>
+                    <span class="project-tag">Cloud & Banking Internal Control</span>
+                    <h2>UBA Identity & Multi-Cloud Risk Controls</h2>
+                    <p>Spearheaded branch-level enforcement of rigid KYC, AML, and account lifespan compliance tracking alongside multi-cloud egress filtering and perimeter access control structures.</p>
                 </div>
-            </div>
-
-            <div class="project-card">
-                <span class="project-tag">Banking Internal Control</span>
-                <h2>UBA Identity & CDD Fraud Mitigation</h2>
-                <p>Spearheaded branch-level enforcement of rigid KYC, AML, and account lifespan compliance tracking, successfully eliminating processing vulnerabilities.</p>
                 <div class="project-tech">
-                    <span class="tech-pill">UBA Credit Policy</span>
-                    <span class="tech-pill">AML/CFT Frameworks</span>
-                    <span class="tech-pill">Risk Management</span>
+                    <span class="tech-pill">Google Cybersecurity</span>
+                    <span class="tech-pill">Aviatrix ACE</span>
+                    <span class="tech-pill">CIBN / AML Frameworks</span>
                 </div>
             </div>
         </section>
@@ -129,17 +141,3 @@
             <div class="skills-grid">
                 <div class="skill-group">
                     <h4>Governance & IT Audit</h4>
-                    <p class="skill-list">ISO/IEC 42001 Lead Auditing · Internal Auditing Principles · Regulatory Alignment Management · Risk Registries Documentation · Central Bank Policies Enforcement</p>
-                </div>
-                <div class="skill-group">
-                    <h4>Cyber & Cloud Infrastructure</h4>
-                    <p class="skill-list">Google Certified Network Security · Aviatrix Multi-Cloud Network Access · Threat Mitigation & Analysis · SQL Server Administration · Python Scripting Automation</p>
-                </div>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-group">
-                    <h4>Business Intelligence & Finance</h4>
-                    <p class="skill-list">Techpye Data Analytics · Core Corporate Financial Modeling · PowerBI Professional Dashboarding · Simplilearn Business Analysis · Lean Six Sigma Frameworks</p>
-                </div>
-                <div class="skill-group">
-                    <h4>Leadership & Enterprise Execution</h4>
